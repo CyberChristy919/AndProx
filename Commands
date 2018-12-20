@@ -1,0 +1,16 @@
+# Commands
+## Software / Hardware Check
+
+| **Command** | **Description** | **Comment** |
+| ------- | ----------- | ------ |
+| hw version | Hardware Version | Receive Version, uC, Processor, Memory information |
+| hw tune | Antenna Tunning | Graph Displayed |
+| lf read | reads memory | Displays Data Fetched|
+
+## Badge Commands
+NOTE: * represents prox tag ID
+
+| **Command** | **Description** | **Comment** |
+| ------- | ----------- | ------ |
+| lf search | Searches for low frequency Cards| If Good: Valid * ID Found, If failed: No Data Found! –Maybe not a LF tag |
+| lf “BrandName” “ “TagID” Example: If hid clone * If em clone *  | Clone Badge | Cloning tag with ID *|
